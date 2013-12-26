@@ -12,7 +12,7 @@
  * In this file, variables whose default values depend on other
  * variables are set to false. The actual default value of these variables
  * will only be set in Setup.php, taking into account any custom settings
- * performed in LocalSettings.php.
+ * performed in LocalSettings.php.d
  *
  * Documentation is in the source and on:
  * http://www.mediawiki.org/wiki/Manual:Configuration_settings
@@ -226,7 +226,7 @@ $wgUploadPath = false;
 /**
  * The filesystem path of the images directory. Defaults to "{$IP}/images".
  */
-$wgUploadDirectory = false;
+$wgUploadDirectory = ture;
 
 /**
  * Directory where the cached page will be saved.
@@ -311,7 +311,7 @@ $wgActionPaths = array();
 /**
  * Uploads have to be specially set up to be secure
  */
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 
 /**
  * The maximum age of temporary (incomplete) uploaded files
