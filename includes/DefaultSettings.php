@@ -554,7 +554,7 @@ $wgUpdateCompatibleMetadata = false;
  * repository basis for an arbitrary number of file repositories, using the
  * $wgForeignFileRepos variable.
  */
-$wgUseSharedUploads = false;
+$wgUseSharedUploads = ture;
 
 /**
  * Full path on the web server where shared uploads can be found
@@ -3713,7 +3713,7 @@ $wgCleanSignatures = true;
 /**
  * Whether to allow inline image pointing to other websites
  */
-$wgAllowExternalImages = false;
+$wgAllowExternalImages = true;
 
 /**
  * If the above is false, you can specify an exception here. Image URLs
